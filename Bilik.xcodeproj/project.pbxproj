@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96242F252800DEC400D67BAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96242F242800DEC400D67BAB /* AppDelegate.swift */; };
+		96242F272800DEC400D67BAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96242F262800DEC400D67BAB /* SceneDelegate.swift */; };
+		96242F292800DEC400D67BAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96242F282800DEC400D67BAB /* ViewController.swift */; };
+		96242F2C2800DEC400D67BAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96242F2A2800DEC400D67BAB /* Main.storyboard */; };
+		96242F2E2800DEC500D67BAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96242F2D2800DEC500D67BAB /* Assets.xcassets */; };
+		96242F312800DEC500D67BAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96242F2F2800DEC500D67BAB /* LaunchScreen.storyboard */; };
+		96242F3C2800DEC500D67BAB /* BilikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96242F3B2800DEC500D67BAB /* BilikTests.swift */; };
+		96242F472800DEC500D67BAB /* BilikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96242F462800DEC500D67BAB /* BilikUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96242F382800DEC500D67BAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96242F192800DEC400D67BAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96242F202800DEC400D67BAB;
+			remoteInfo = Bilik;
+		};
+		96242F432800DEC500D67BAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96242F192800DEC400D67BAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96242F202800DEC400D67BAB;
+			remoteInfo = Bilik;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96242F212800DEC400D67BAB /* Bilik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bilik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96242F242800DEC400D67BAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96242F262800DEC400D67BAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		96242F282800DEC400D67BAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96242F2B2800DEC400D67BAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96242F2D2800DEC500D67BAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96242F302800DEC500D67BAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96242F322800DEC500D67BAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96242F372800DEC500D67BAB /* BilikTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BilikTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96242F3B2800DEC500D67BAB /* BilikTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BilikTests.swift; sourceTree = "<group>"; };
+		96242F3D2800DEC500D67BAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96242F422800DEC500D67BAB /* BilikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BilikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96242F462800DEC500D67BAB /* BilikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BilikUITests.swift; sourceTree = "<group>"; };
+		96242F482800DEC500D67BAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96242F1E2800DEC400D67BAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96242F342800DEC500D67BAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96242F3F2800DEC500D67BAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96242F182800DEC400D67BAB = {
+			isa = PBXGroup;
+			children = (
+				96242F232800DEC400D67BAB /* Bilik */,
+				96242F3A2800DEC500D67BAB /* BilikTests */,
+				96242F452800DEC500D67BAB /* BilikUITests */,
+				96242F222800DEC400D67BAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96242F222800DEC400D67BAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96242F212800DEC400D67BAB /* Bilik.app */,
+				96242F372800DEC500D67BAB /* BilikTests.xctest */,
+				96242F422800DEC500D67BAB /* BilikUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96242F232800DEC400D67BAB /* Bilik */ = {
+			isa = PBXGroup;
+			children = (
+				96242F242800DEC400D67BAB /* AppDelegate.swift */,
+				96242F262800DEC400D67BAB /* SceneDelegate.swift */,
+				96242F282800DEC400D67BAB /* ViewController.swift */,
+				96242F2A2800DEC400D67BAB /* Main.storyboard */,
+				96242F2D2800DEC500D67BAB /* Assets.xcassets */,
+				96242F2F2800DEC500D67BAB /* LaunchScreen.storyboard */,
+				96242F322800DEC500D67BAB /* Info.plist */,
+			);
+			path = Bilik;
+			sourceTree = "<group>";
+		};
+		96242F3A2800DEC500D67BAB /* BilikTests */ = {
+			isa = PBXGroup;
+			children = (
+				96242F3B2800DEC500D67BAB /* BilikTests.swift */,
+				96242F3D2800DEC500D67BAB /* Info.plist */,
+			);
+			path = BilikTests;
+			sourceTree = "<group>";
+		};
+		96242F452800DEC500D67BAB /* BilikUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96242F462800DEC500D67BAB /* BilikUITests.swift */,
+				96242F482800DEC500D67BAB /* Info.plist */,
+			);
+			path = BilikUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96242F202800DEC400D67BAB /* Bilik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96242F4B2800DEC500D67BAB /* Build configuration list for PBXNativeTarget "Bilik" */;
+			buildPhases = (
+				96242F1D2800DEC400D67BAB /* Sources */,
+				96242F1E2800DEC400D67BAB /* Frameworks */,
+				96242F1F2800DEC400D67BAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bilik;
+			productName = Bilik;
+			productReference = 96242F212800DEC400D67BAB /* Bilik.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96242F362800DEC500D67BAB /* BilikTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96242F4E2800DEC500D67BAB /* Build configuration list for PBXNativeTarget "BilikTests" */;
+			buildPhases = (
+				96242F332800DEC500D67BAB /* Sources */,
+				96242F342800DEC500D67BAB /* Frameworks */,
+				96242F352800DEC500D67BAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96242F392800DEC500D67BAB /* PBXTargetDependency */,
+			);
+			name = BilikTests;
+			productName = BilikTests;
+			productReference = 96242F372800DEC500D67BAB /* BilikTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96242F412800DEC500D67BAB /* BilikUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96242F512800DEC500D67BAB /* Build configuration list for PBXNativeTarget "BilikUITests" */;
+			buildPhases = (
+				96242F3E2800DEC500D67BAB /* Sources */,
+				96242F3F2800DEC500D67BAB /* Frameworks */,
+				96242F402800DEC500D67BAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96242F442800DEC500D67BAB /* PBXTargetDependency */,
+			);
+			name = BilikUITests;
+			productName = BilikUITests;
+			productReference = 96242F422800DEC500D67BAB /* BilikUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96242F192800DEC400D67BAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					96242F202800DEC400D67BAB = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					96242F362800DEC500D67BAB = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 96242F202800DEC400D67BAB;
+					};
+					96242F412800DEC500D67BAB = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 96242F202800DEC400D67BAB;
+					};
+				};
+			};
+			buildConfigurationList = 96242F1C2800DEC400D67BAB /* Build configuration list for PBXProject "Bilik" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96242F182800DEC400D67BAB;
+			productRefGroup = 96242F222800DEC400D67BAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96242F202800DEC400D67BAB /* Bilik */,
+				96242F362800DEC500D67BAB /* BilikTests */,
+				96242F412800DEC500D67BAB /* BilikUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96242F1F2800DEC400D67BAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96242F312800DEC500D67BAB /* LaunchScreen.storyboard in Resources */,
+				96242F2E2800DEC500D67BAB /* Assets.xcassets in Resources */,
+				96242F2C2800DEC400D67BAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96242F352800DEC500D67BAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96242F402800DEC500D67BAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96242F1D2800DEC400D67BAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96242F292800DEC400D67BAB /* ViewController.swift in Sources */,
+				96242F252800DEC400D67BAB /* AppDelegate.swift in Sources */,
+				96242F272800DEC400D67BAB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96242F332800DEC500D67BAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96242F3C2800DEC500D67BAB /* BilikTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96242F3E2800DEC500D67BAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96242F472800DEC500D67BAB /* BilikUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96242F392800DEC500D67BAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96242F202800DEC400D67BAB /* Bilik */;
+			targetProxy = 96242F382800DEC500D67BAB /* PBXContainerItemProxy */;
+		};
+		96242F442800DEC500D67BAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96242F202800DEC400D67BAB /* Bilik */;
+			targetProxy = 96242F432800DEC500D67BAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96242F2A2800DEC400D67BAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96242F2B2800DEC400D67BAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96242F2F2800DEC500D67BAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96242F302800DEC500D67BAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96242F492800DEC500D67BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96242F4A2800DEC500D67BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96242F4C2800DEC500D67BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7X67ZKQSU;
+				INFOPLIST_FILE = Bilik/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.bilik.bilik.Bilik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96242F4D2800DEC500D67BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7X67ZKQSU;
+				INFOPLIST_FILE = Bilik/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.bilik.bilik.Bilik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		96242F4F2800DEC500D67BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7X67ZKQSU;
+				INFOPLIST_FILE = BilikTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.bilik.bilik.BilikTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bilik.app/Bilik";
+			};
+			name = Debug;
+		};
+		96242F502800DEC500D67BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7X67ZKQSU;
+				INFOPLIST_FILE = BilikTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.bilik.bilik.BilikTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bilik.app/Bilik";
+			};
+			name = Release;
+		};
+		96242F522800DEC500D67BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7X67ZKQSU;
+				INFOPLIST_FILE = BilikUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.bilik.bilik.BilikUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bilik;
+			};
+			name = Debug;
+		};
+		96242F532800DEC500D67BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7X67ZKQSU;
+				INFOPLIST_FILE = BilikUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.bilik.bilik.BilikUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bilik;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96242F1C2800DEC400D67BAB /* Build configuration list for PBXProject "Bilik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96242F492800DEC500D67BAB /* Debug */,
+				96242F4A2800DEC500D67BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96242F4B2800DEC500D67BAB /* Build configuration list for PBXNativeTarget "Bilik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96242F4C2800DEC500D67BAB /* Debug */,
+				96242F4D2800DEC500D67BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96242F4E2800DEC500D67BAB /* Build configuration list for PBXNativeTarget "BilikTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96242F4F2800DEC500D67BAB /* Debug */,
+				96242F502800DEC500D67BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96242F512800DEC500D67BAB /* Build configuration list for PBXNativeTarget "BilikUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96242F522800DEC500D67BAB /* Debug */,
+				96242F532800DEC500D67BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96242F192800DEC400D67BAB /* Project object */;
+}
